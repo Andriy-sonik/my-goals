@@ -1,0 +1,10 @@
+[data-theme="light"] {
+  --primary: #2563eb;
+  --primaryHover: #1d4ed8;
+}
+
+[data-theme="dark"] {
+  --primary: #60a5fa;
+  --primaryHover: #3b82f6;
+}
+
