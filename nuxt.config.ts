@@ -5,8 +5,12 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/supabase',
   ],
-   css: [
+  css: [
     '~/assets/generated/themes.css',
   ],
+  supabase: {
+    redirect: false,
+  },
 })

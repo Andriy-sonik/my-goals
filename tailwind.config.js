@@ -5,6 +5,11 @@ export default {
     extend: {
       colors: {
         primary: 'var(--primary)',
+        sky: {
+          300: 'var(--primaryHover)',
+          400: 'var(--primary)',
+          500: 'var(--primary)',
+        },
       },
     },
   },
