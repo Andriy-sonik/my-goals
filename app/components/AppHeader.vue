@@ -37,5 +37,6 @@ const signOut = async () => {
                 </button>
             </li>
         </ul>
+        <AppIcon name="search" label="arrow" class="text-red-500" :size="25" />
     </header>
 </template>
